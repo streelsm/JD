@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*活动背景图片*/
+.hd-bg {
+    width: 100%;
+    height: 644px;
+    background: pink;
+    position: absolute;
+}
+
+.hd-bg .a-bg {
+    width: 100%;
+    height: 644px;
+    display: block;
+    background: url("../images/a-bg.jpg") no-repeat center center;
+}
+
+.banner {
+    height: 454px;
+    position: relative;
+    margin-top: 12px;
+}
+.left-banner {
+    float: left;
+    margin-left: 220px;
+    position: relative;
+}
+.left-banner .pages a {
+    width: 30px;
+    height: 60px;
+    display: block;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    position: absolute;
+}
+.left-banner .pages a:hover {
+    background: rgba(0,0,0,.5);;
+}
+.left-banner .l-page {
+    left: 0;
+    top:50%;
+    margin-top: -30px;
+}
+.left-banner .r-page {
+    right: 0;
+    top:50%;
+    margin-top: -30px;
+}
+
+.numbers {
+    width: 132px;
+    position: absolute;
+    left: 50%;
+    margin-left: -66px;
+    bottom: 8px;
+
+}
+.numbers li {
+    float: left;
+
+}
+.numbers a {
+    width: 18px;
+    height:18px ;
+    display: block;
+    background:#3e3e3e ;
+    text-align: center;
+    line-height: 18px;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-right: 4px;
+}
+#numbers-active {
+    background:#B61D1D ;
+}
+
+.r-news {
+    width: 248px;
+    height: 372px;
+    float: right;
+
+}
+.news-title {
+    height: 32px;
+    border-bottom: 1px dashed #E5E5E5;
+    line-height: 32px;
+    padding-left: 15px;
+    padding-right: 16px;
+}
+.r-news h5 {
+float: left;
+}
+.r-news a{
+    display: block;
+    float: right;
+}
+
+.news-list {
+   height: 130px;
+    padding-top: 11px;
+
+
+}
+.news-list li {
+    font-size: 12px;
+    float: left;
+    padding-left: 10px;
+    margin-bottom:11px;
+
+}
+.service-list {
+    width: 300px;
+    height: 206px;
+
+}
+.service-list li {
+    width:62px ;
+    height:70px ;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+
+
+}
+
+.hd {
+    background: url("../images/hd.jpg") no-repeat;
+    width:250px ;
+    height: 75px;
+    float: right;
+    margin-top: 5px ;
+}
